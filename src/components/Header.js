@@ -40,7 +40,6 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-amber-400">Maksat</div>
                 <div className="w-[70px] header-general flex ">
                     <div  className="flex justify-center items-center absolute top-[50%] m-4">
                         <div onClick={() => setClick(!click)}  className="header-bg cursor-pointer  bg-white fixed  min-h-full w-[70px] h-full left-0 top-0 flex justify-center items-center flex-col">
