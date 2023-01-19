@@ -47,7 +47,7 @@ const OurCottages = () => {
                                 <div className="our-team">
                                     <div
                                         className="our-cottages-w mb-[50%] w-[186px] h-[186px] flex justify-center items-center flex-col  rounded-[50%] bg-[#414141]">
-                                        <h1 className="text-white font-Patriciana font-thin text-sm">Посмотреть</h1>
+                                        <h1 className="text-white font-sans font-thin text-sm">Посмотреть</h1>
                                         <div className="my-2 border-t-2 w-[60px]"></div>
                                         <p className="text-center text-white text-[12px]">Нажмите сюда для <br/>просмотра
                                         </p>

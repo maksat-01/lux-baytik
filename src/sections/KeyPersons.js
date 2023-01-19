@@ -7,7 +7,7 @@ const KeyPersons = () => {
     return (
         <div className="ke flex">
             <div  className="key mt-[-70%] ml-[10%]">
-                <h1 className=" text-xl font-Patriciana">Ключевые люди <br/>компании</h1>
+                <h1 className=" text-xl font-sans">Ключевые люди <br/>компании</h1>
                 <div className="flex key-person  items-center">
                     <div>
                         <div className="py-6">

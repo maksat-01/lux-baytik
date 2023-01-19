@@ -6,7 +6,7 @@ const Request = () => {
         <div className=" ml-[5%] ">
             <div className="">
                 <div>
-                    <h1 className="text-[42px] font-light font-Patriciana">Оставьте заявку</h1>
+                    <h1 className="text-[42px] font-light font-sans">Оставьте заявку</h1>
                     <p className="font-[Monserrat] text-[18px] mx-[10%] font-extralight w-[366px]">Напишите ваши
                         контактные данные для индивидуальной консультации</p>
                 </div>
@@ -30,7 +30,7 @@ const Request = () => {
                                     className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200  rounded-lg text-sm px-[30px] py-[10px] dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Отправить
                             </button>
                         </div>
-                        <div className="request-q text-[33px] ml-[200px] font-[250] font-[Patriciana]">
+                        <div className="request-q text-[33px] ml-[200px] font-[250] font-sans">
                             <on>
                                 <li>Instagram</li>
                                 <li className="my-[20%]">Twitter</li>

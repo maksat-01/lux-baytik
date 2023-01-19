@@ -48,13 +48,8 @@ const Home = () => {
                     start: "top top",
                     scroller: ".App",
                     invalidateOnRefresh: true,
-                    // onUpdate: () => scrollingElement.pause(),
-                    // onUpdate: () => {
-                    //     gsap.set(scrollingElement.pause())
-                    // },
                     scrub: 1,
                     pin: true,
-                    markers: true,
                     end: `${pinWrapWidth} bottom`
                 },
                 height: scrollingElement,
@@ -67,9 +62,6 @@ const Home = () => {
                     scroller: ".App",
                     scrub: 1,
                     invalidateOnRefresh: true,
-                    // pinSpacing: false,
-
-                    markers: true,
                     end: `${pinWrapWidth} bottom`
                 },
                 x: -pinWrapWidth,

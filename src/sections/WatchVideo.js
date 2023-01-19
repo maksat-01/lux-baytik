@@ -24,7 +24,6 @@ const WatchVideo = () => {
                     </div>
                 </div>
                 <video  src={video} autoPlay loop muted className="image-video hidden min-w-full mx-40 min-h-full 8xl:w-[1300px] h-[1000px]   7xl:w-[1300px] h-[800px] 6xl:w-[1200px] h-[800px]  5xl:w-[400px] h-[500px] 4xl:w-[600px] h-[500px] " />
-
                 <img className="image-watch-item hidden" src={image} alt=""/>
             </div>
         </div>

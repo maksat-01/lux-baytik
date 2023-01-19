@@ -11,14 +11,30 @@
     src: url(fonts/jost-3-cufonfonts/Jost-Black.ttf);
 }
 
+.modal-text {
+    animation: down 1s infinite linear;
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(30px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(30px);
+    }
+}
 
 .modal-setting {
     display: flex !important;
     justify-content: center;
     align-items: center;
 }
-
-
+.ReactModal__Overlay--after-open {
+    background: rgba(0, 0, 0, 0.25);
+}
 .slick-list {
     overflow: hidden;
     display: flex;
@@ -33,24 +49,28 @@
     width: 100px;
 }
 
-.modal {
-    max-width: 100%;
-    z-index: 100;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .modal-content {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 10%;
+    left: 10%;
+
     background: white;
-    width: 100vw;
-    height: 100vh;
-    /*overflow-y: scroll;*/
+    width: 80vw;
+    height: 90vh;
     overflow: auto;
+    padding-top: 50px;
+    animation: modal 1s;
 }
+
+@keyframes modal {
+    0% {
+        transform: translateY(50%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.modal-content::-webkit-scrollbar{width: 0}
 
 
 .swich {
@@ -72,6 +92,7 @@
     color: #000000;
     rotate: -90deg;
 }
+
 
 @keyframes ani {
     0% {
@@ -147,6 +168,9 @@
 }
 
 @media (max-width: 992px) {
+    .our-text {
+        width: 500px;
+    }
     .swich {
         margin: 0 auto 0 20%;
 
@@ -1444,11 +1468,12 @@
 
 }
 
-@media (max-width: 361px)   {
+@media (max-width: 361px) {
     .person {
         width: 140px;
         height: 256px;
     }
+
     .watch-one {
         display: none;
     }
@@ -1651,9 +1676,11 @@
         width: 120px;
         height: 236px;
     }
+
     .logo-2 {
         padding-left: 15%;
     }
+
     .swich {
         display: none;
     }
