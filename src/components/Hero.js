@@ -5,7 +5,7 @@ import home from "../assets/Images/home.png"
 
 const Hero = () => {
     return (
-        <div  className="hero flex border-r-solid border-r-[3px] border-r-black mr-[200px] ">
+        <div  id="hero" className="hero flex border-r-solid border-r-[3px] border-r-black mr-[200px] ">
             <img src={home} className="img 4xl:w-[600px] h-[800px] 5xl:w-[600px] h-[800px] 6xl:w-[832px] h-[800px]"
                  alt=""/>
             <div className="m-8 ">
@@ -27,11 +27,13 @@ const Hero = () => {
                             <p className='font-light  text-sm pb-[2%]  py-[20px] font-[Montserrat] text-gray-800'>Стабильность
                                 и надежность на рынке
                                 строительства</p>
-                            <div className='flex hero-p items-center pt-[50px]'>
-                                <button className=' text-sm font-extralight cursor-pointer font-[Montserrat]'>Подробнее
-                                </button>
-                                <HiArrowNarrowRight className='w-8 rotate-90'/>
-                            </div>
+                            <a href="#watch">
+                                <div className='flex hero-p items-center pt-[50px]'>
+                                    <button className=' text-sm font-extralight cursor-pointer font-[Montserrat]'>Подробнее
+                                    </button>
+                                    <HiArrowNarrowRight className='w-8 rotate-90'/>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>

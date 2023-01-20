@@ -3,7 +3,7 @@ import img6 from "../assets/Images/img6.png"
 
 const Request = () => {
     return (
-        <div className=" ml-[5%] ">
+        <div id="request" className=" ml-[5%] mb-[10%]">
             <div className="">
                 <div>
                     <h1 className="text-[42px] font-light font-sans">Оставьте заявку</h1>
@@ -27,7 +27,9 @@ const Request = () => {
                                         placeholder="+996" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
                             </div>
                             <button type="button"
-                                    className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200  rounded-lg text-sm px-[30px] py-[10px] dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Отправить
+                                    className="bg-white border border-black text-black text-sm   block   py-[10px] px-[30px] p-1.5 dark:bg-black dark:border-black dark:placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    // className="text-black bg-white border border-black focus:outline-none hover:bg-white focus:ring-4 focus:ring-black   text-sm px-[30px] py-[10px] dark:bg-black dark:text-white dark:border-black dark:hover:bg-black dark:hover:border-black dark:focus:ring-black"
+                            >Отправить
                             </button>
                         </div>
                         <div className="request-q text-[33px] ml-[200px] font-[250] font-sans">

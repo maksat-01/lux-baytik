@@ -8,8 +8,6 @@ import Footer from "./sections/Footer";
 import GlobalStyles from "./styles/GlobalStyles";
 import KeyPersons from "./sections/KeyPersons";
 import React from "react";
-import {Route, Routes, } from "react-router-dom";
-import ModalWindow from "./sections/ModalWindow/ModalWindow";
 
 
 function App() {

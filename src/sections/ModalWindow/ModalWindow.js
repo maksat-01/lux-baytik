@@ -48,6 +48,7 @@ const ModalWindow = ({setModal, modal}) => {
                 isOpen={modal}
                 onRequestClose={closeModal}
                 style={customStyles}
+
             >
                 <div>
                     <div className="modal">
@@ -69,16 +70,16 @@ const ModalWindow = ({setModal, modal}) => {
                                 </div>
                             </div>
                             <div>
-                                <h2 className="text-[#363636] modal-text text-center my-40 text-lg">Scroll down</h2>
+                                <h2 className="text-[#363636] font-mono modal-text text-center py-5 pb-40 text-lg">Scroll down</h2>
                             </div>
                             <div>
                                 <div className="">
                                     <div className="flex justify-center items-center">
                                         <div className="border-t-4 w-[150px]  bg-[#6D6D6D]"></div>
-                                        <h3 className=" text-2xl font-[Jost] text-center"><span
-                                            className="text-[#C9AE5D]">О</span> <br/>проекте</h3>
+                                        <h3 className=" text-2xl font-mono text-center"><span
+                                            className="text-[#C9AE5D] font-mono">О</span> <br/>проекте</h3>
                                     </div>
-                                    <p className="text-center py-20   text-base ">Проект жилого двухэтажного дома
+                                    <p className="text-center py-20  font-mono text-base ">Проект жилого двухэтажного дома
                                         выполнен с
                                         особым стилем, <br/>который впечатляет с
                                         <br/>первого взгляда. Изысканность проекта, продуманность каждой детали,
@@ -99,7 +100,7 @@ const ModalWindow = ({setModal, modal}) => {
                                     </div>
                                 </Slider>
                                 <div>
-                                    <h4 className="text-center text-base my-[50px]">Типы комнат:</h4>
+                                    <h4 className="text-center font-serif text-base my-[50px]">Типы комнат:</h4>
                                     <div>
                                         <div className="flex flex-col">
                                             <div className="flex justify-evenly items-center">
@@ -138,7 +139,7 @@ const ModalWindow = ({setModal, modal}) => {
                                 <div className="m-[60px]">
                                     <div className="flex">
                                         <div className="border-r-4  mx-5 border-[#C9AE5D]"></div>
-                                        <p className="font-serif text-2xl"><span
+                                        <p className="font-sans text-2xl"><span
                                             className="text-[#C9AE5D] ">Современный</span> <br/>коттедж</p>
                                     </div>
                                     <div className="flex justify-between items-center">
@@ -178,7 +179,7 @@ const ModalWindow = ({setModal, modal}) => {
                                     </div>
                                 </div>
                             </div>
-                            <h1 className="text-center cursor-pointer text-lg" onClick={closeModal}>close</h1>
+                            <h1 className="text-center cursor-pointer mt-[-50px] text-lg" onClick={closeModal}>close</h1>
                         </div>
                     </div>
                 </div>

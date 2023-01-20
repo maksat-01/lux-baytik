@@ -9,7 +9,7 @@ const OurCottages = () => {
     const [modal, setModal] = useState(false)
 
     return (
-        <div className="flex our-cottages">
+        <div id="cottages" className="flex our-cottages">
             <div className="text">
                 <p className=" text-6xl">Наши коттеджи</p>
             </div>

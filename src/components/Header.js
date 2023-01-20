@@ -32,10 +32,10 @@ const Header = () => {
                                 <img className="m-20 logo" src={logo2} alt=""/>
                             </a>
                             <div className="flex href flex-col font-light text-xl text-center color-black">
-                                <a className="m-7 href-a" href="#" >О компании</a>
-                                <a  className="m-7 href-a" href="#">Коттеджи</a>
-                                <a className="m-7 href-a" href="#">Ключевые люди</a>
-                                <a  className="m-7 href-a" href="#">Связаться</a>
+                                <a className="m-7 href-a" href="#about" >О компании</a>
+                                <a  className="m-7 href-a" href="#cottages">Коттеджи</a>
+                                <a className="m-7 href-a" href="#person">Ключевые люди</a>
+                                <a  className="m-7 href-a" href="#request">Связаться</a>
                             </div>
                         </div>
                     </div>
@@ -58,15 +58,15 @@ const Header = () => {
                         display: click ? "block" : "none",
                     }}>
                         <div style={{
-                        }} className="header bg-white fixed left-[4%] min-h-full w-[100px] flex  items-center flex-col 4xl:w-[35%] 3xl:w-[35%]">
+                        }} className="header bg-[#FFFFFF] fixed left-[4%] min-h-full w-[100px] flex  items-center flex-col 4xl:w-[35%] 3xl:w-[35%]">
                             <a href="#hero">
                                 <img className="m-20 " src={logo2} alt=""/>
                             </a>
                             <div className="flex href flex-col font-light text-xl text-center color-black">
-                                <a className="m-7 href-a" href="#" >О компании</a>
-                                <a  className="m-7 href-a" href="#">Коттеджи</a>
-                                <a className="m-7 href-a" href="#">Ключевые люди</a>
-                                <a  className="m-7 href-a" href="#">Связаться</a>
+                                <a className="m-7 href-a" href="#about" >О компании</a>
+                                <a  className="m-7 href-a" href="#cottages">Коттеджи</a>
+                                <a className="m-7 href-a" href="#person">Ключевые люди</a>
+                                <a  className="m-7 href-a" href="#request">Связаться</a>
                             </div>
                         </div>
                     </div>

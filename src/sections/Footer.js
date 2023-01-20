@@ -11,13 +11,13 @@ const Footer = () => {
                     <img src={logo4} alt=""/>
                     <div className="flex footer-q">
                         <div className="bg-white m-4 hover:bg-black  rounded-[50%] w-[48px] text-center h-[48px]">
-                            <FaFacebookF className="hover:text-white ml-[15px] mt-[15px] text-[#B66A20] "/>
+                            <FaFacebookF className="hover:text-white ml-[12px] mt-[13px] text-base text-[#B66A20] "/>
                         </div>
                         <div  className="bg-white hover:bg-black  m-4 rounded-[50%] w-[48px] text-center h-[48px]">
-                            <BsTwitter  className="ml-[15px] mt-[15px] text-[#B66A20] hover:text-white"/>
+                            <BsTwitter  className="ml-[13px] mt-[13px] text-base text-[#B66A20] hover:text-white"/>
                         </div>
                         <div  className="bg-white m-4 hover:bg-black rounded-[50%] w-[48px] text-center h-[48px]">
-                            <AiFillInstagram  className=" ml-[15px] mt-[15px] hover:text-white text-[#B66A20] "/>
+                            <AiFillInstagram  className="text-base ml-[13px] mt-[13px] hover:text-white text-[#B66A20] "/>
                         </div>
                     </div>
                     <div>

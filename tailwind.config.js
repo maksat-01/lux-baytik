@@ -48,7 +48,8 @@ module.exports = {
       },
       fontFamily: {
         sans: "Patriciana",
-        serif: "Jost"
+        serif: "Jost",
+        mono: "Montserrat"
       }
     },
   },
